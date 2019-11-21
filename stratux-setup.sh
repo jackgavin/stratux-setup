@@ -390,7 +390,7 @@ echo "${YELLOW}**** Stratux build and installation... *****${WHITE}"
 cd /root
 
 rm -rf stratux
-git clone https://github.com/cyoung/stratux --recursive
+git clone https://github.com/jackgavin/stratux --recursive
 cd stratux
 git fetch --tags
 tag=$(git describe --tags `git rev-list --tags --max-count=1`)
